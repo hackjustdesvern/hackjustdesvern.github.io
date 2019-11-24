@@ -41,18 +41,11 @@ plugins:
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
+paginate_path: sessions/page:num # jekyll-paginate > blog page
 social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
+  name: Hack Just Desvern
+  links:
+    - https://github.com/hackjustdesvern
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -63,40 +56,18 @@ sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
-
-# 5. Collections
-collections:
-  posts:
-    title: Posts # Needed for Siteleaf
-    output: true
-    description: "My thoughts and ideas" # The post list page content
-    feature_text: |
-      Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
-
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      image: "/assets/default-social-image.png" # Default image for sharing
+timezone: Europe/Madrid # Timezone for blog posts and alike
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
-url: "http://localhost:4000" # Site url, also used in jekyll-seo-tag
+title: "Hack Just Desvern" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
+description: "Comunitat arrelada a Sant Just Desvern dedicada a promoure la cultura hacker." # Site description and default description, also used in jekyll-seo-tag
+url: "hackjustdesvern.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# google_analytics: ''
-# google_analytics_anonymize_ip: ''
-# service_worker: false # Will turn off the service worker if set to false
+repo: "https://github.com/hackjustdesvern/hackjustdesvern.github.io"
+email: "hackjustdesvern@protonmail.com"
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 # 8. Site favicons & manifest icons
@@ -114,25 +85,16 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 navigation_header:
 - title: Home
   url: /
-- title: Elements
-  url: /
-- title: Blog
-  url: /
-- title: Categories
-  url: /
+- title: Sessions
+  url: /sessions/
   
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: Hack Just Desvern
+  url: https://hackjustdesvern.github.io
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
+  GitHub: https://github.com/hackjustdesvern
   RSS: /feed.xml
 
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  # Twitter: "#0d94e7"
-  # facebook: "#3B5998"
+sharing_links:
   Email: true
