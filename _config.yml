@@ -30,7 +30,6 @@ plugins:
 - jekyll-remote-theme
 - jekyll-sitemap
 - jekyll-mentions
-- jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-default-layout
@@ -39,9 +38,6 @@ plugins:
 - jekyll-include-cache
 - jemoji
 
-# 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
-paginate_path: sessions/page:num # jekyll-paginate > blog page
 social: # jekyll-seo-tag > social overrides
   name: Hack Just Desvern
   links:
@@ -60,7 +56,7 @@ timezone: Europe/Madrid # Timezone for blog posts and alike
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
+lang: es-CA # Set the site language
 title: "Hack Just Desvern" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Comunitat arrelada a Sant Just Desvern dedicada a promoure la cultura hacker." # Site description and default description, also used in jekyll-seo-tag
@@ -83,8 +79,6 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 9. Site navigation
 navigation_header:
-- title: Home
-  url: /
 - title: Sessions
   url: /sessions/
   

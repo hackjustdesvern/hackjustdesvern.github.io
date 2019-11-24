@@ -3,9 +3,9 @@ title: Sessions
 feature_image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sant_Just_Desvern_-_Walden_7_%2821%29.jpg"
 ---
 
-## Sessio-0: Hello World!
+### Sessio-00: Hello World!
 
-### Descripcio
+#### Descripcio
 
 Primera sessio de la comunitat Hack Just Desvern.
 En aquesta sessio es tractaran els seguents temes:
@@ -18,6 +18,10 @@ En aquesta sessio es tractaran els seguents temes:
 
 🏛️ Al CDJ
 
-### Material
+#### Material
 - [Apunts (WIP)](https://hackmd.io/nwqZ_iFaQiGo7gInd2SbAQ?edit)
 - [Slides (WIP)](slides/hello-world.html)
+
+---
+
+### Sessio-01: TBD
