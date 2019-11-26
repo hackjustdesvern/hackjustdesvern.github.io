@@ -2,9 +2,9 @@
 title: Sessions
 ---
 
-### Sessio-00: Hello World!
+# Sessio-00: Hello World!
 
-#### Descripcio
+### Descripcio
 
 Primera sessio de la comunitat Hack Just Desvern.
 En aquesta sessio es tractaran els seguents temes:
@@ -12,11 +12,12 @@ En aquesta sessio es tractaran els seguents temes:
 - Historia dels ordinadors
 - Internet: com funciona + passat present i futur
 - Conceptes i eines basiques d'empoderament i privacitat a internet
+- El futur de la comunitat
 
 📆 28/11/2019 19:00 ~ 21:00
 
 🏛️ Al CDJ
 
-#### Material
+### Material
 - [Apunts (WIP)](https://hackmd.io/nwqZ_iFaQiGo7gInd2SbAQ?edit)
 - [Slides (WIP)](slides/hello-world.html)
