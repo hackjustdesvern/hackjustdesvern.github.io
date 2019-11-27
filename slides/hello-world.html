@@ -31,26 +31,30 @@
 						Sessio-00: Hello World
 
 						Note:
-						### Motivacio i expectatives (2 min)
-						* Warm Up
-						TODO
-						* Objectiu 
-						TODO
+						- Bona nit i gracies per venir, comencem!
+						- Nivell d'energia
+						- Quin nivell d'informatica teniu?
+							- TOP: Se programar
+							- MID: Es un tema q minteressa i m'he documentat una mica
+							- LOW: Se fe servi el wha
+						- Pregunta oberta: q espereu d'aqesta xerrada
+						- Quan una cosa us mola moveu els dits, aixi puc tenir feedback de q es el q mes us interessa
+						- Si en qualsevol moment teniu algun dubte axeceu la ma
 					</textarea>
 				</section>
 				<section data-markdown>
 					<textarea data-template>
 						## Contingut
-						0. Historia
-						1. Internet
-						2. Dades personals
+						0. Historia dels computadors
+						1. Internet: com funciona, passat, present i futur
+						2. Privacitat
 						3. Open Source
 						4. Conceptes i eines basiques d’empoderament i privacitat a internet
 
 						Note:
-						0. Historia
-						1. Internet
-						2. Dades personals
+						0. Historia dels computadors
+						1. Internet: com funciona, passat, present i futur
+						2. Privacitat
 						3. Open Source
 						4. Conceptes i eines basiques d’empoderament i privacitat a internet
 					</textarea>
@@ -61,7 +65,7 @@
 						`La historia d'Alan Turing`
 						Note:
 						- ???: Qui ha vist la peli: The imitation game aka descifrando a enigma o sap qui es Alan Turing??
-						- Alan Turing va idear el concepte sobre el 1936 que encara es basen els ordinadors avui en dia: La maquina de turing: un model matematic que definiex una maquina capas de resoldre qualsevol problema computable.
+						- Alan Turing va idear el concepte sobre que encara es basen els ordinadors el 1936 : La maquina de turing: un model matematic que definiex una maquina capas de resoldre qualsevol problema computable.
 						- Durant la WWII va tenir la oportunitat de construir una maquina mecanica (que no electroncia) que implementava el model de la maquina de turing.
 					</textarea>
 				</section>
@@ -80,7 +84,9 @@
 					<textarea data-template>
 						## 90's: El boom d'internet
 						Note:
-						TODO
+						- Als 90 va apareixer internet, i constanment es va anar popularitzant, d'aqui 10 anys totm tindra acces a internet
+						- Ara veurem un video q explica com funciona internet.
+						- El video es en angles. Voleu subs?
 					</textarea>
 				</section>
 				<section data-background-iframe="https://www.youtube-nocookie.com/embed/MwxMsaFFycg?start=39"></section>
@@ -90,56 +96,74 @@
 						#### Exemple amb el Tsunami D
 						`Disclaimer: L'exemple es ilustartiu, i en alguns casos tecnicament incorrecte!`
 						Note:
-						TODO
+						- Vale, ara fare un exemple del que acabem de veure amb la web del tsunami.
+						- L'exemple es incorrecte pq les coses no han anat exactament com explicare, pero crec que es molt ilustratoi
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/osi.jpg" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						- Abans de comensar l'exemple, el video ha parlat de IP i DNS, que es troben en dos de les 7 capes del model OSI
+						- El model OSI es una arquitectura, que es la que realment fa q funcioni internet.
+						- A la capa d'adalt, la d'aplicacio, trobem el DNS, pero tambe HTTP que seria l'aplicacio sobre la que funciona la web.
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/exemple-tsunamiD-00.png" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						- Anem a suposar que el bo d'en Jerry vol accedir a la web del tsunami.
+						- Li demana al seu ISP, Movistar, que li busqui a un servidor de DNS a quiuna adresa es troba sunami.cat
+						- Movistar li retorna l'adressa i en Jerry ja pot anar a buscar la web del tsunami.
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/exemple-tsunamiD-01.png" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						Malauradament al presi no li mola aixo de que la gent pugui entrar a certes pagines web i li demana a M q la bloquegi
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/exemple-tsunamiD-02.png" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						Quan en Jerry li torni a demanar a M pel tsunami, M li dira po vaser q no
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/exemple-tsunamiD-03.png" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						- Per tal d'evitar la censura, el Su decideix moure la seva pagina a un servei molt popular com GH, pero podria ser wiix, WP, o similar.
+						- Ara en Jerry cuan pregunta per la adresa, eguntara per la de GH, no la del Su, i M li donara
+						- Quan en Jerry vagi a buscar la @ de GH, especificara que vol la pagina del Su
+						- Finalment, GH li donara la pagina del Su 
+						- Aixo es posible gracies al HTTPS, que encripta la peticio den J de manera q nomes l'emisor i el receptor entenen el contingut.
+						- Basicament nomes GH pot veure la part de /tsunami, i nomes en J pot entendre la resposta dels sevidor, la pagina web
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/exemple-tsunamiD-04.png" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						A en Pedro aixo no li agrada gens, i decideix demanarli a GH que esborri la pagina
+					</textarea>
+				</section>
+				<section data-markdown data-background-image="assets/gov-takesdown.png" data-background-size="contain">
+					<textarea data-template>
+						Note:
+						La penya de GH flipa a saco i afegeixen a espanya a la resta de paisos que els hi han demanat el mateix, X i Ru
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/exemple-tsunamiD-05.png" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						- Finalment en Jerry s'ha tornat a quedar sense poder accedir a la web del tsunami.
+						- De fet amb la primera intervencio den pedro, nomed els espanyols no podien accediri.
+						- Ara la web ha sigut borrada del servidor de GH i ja no hi pot accedir ningu (fins que la penjin a un altre lloc)
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="https://www.cigionline.org/sites/default/files/styles/slideshow/public/images/CIGIonline_ipsos-slider.jpeg?itok=PbxOZCF-">
 					<textarea data-template>
 						# Historia d'internet
 						Note:
-						TODO
+						Fins aqui l'exemple del Su, ara pasarem a fer una breu repasada  ala historia dinternet
 					</textarea>
 				</section>
 				<section data-markdown>
@@ -148,8 +172,8 @@
 						- Descentralitzat (P2P): Els PC es conecten directament entre ells
 						- Pagines nomes de lectura: els consumidors no interactuen
 						Note:
-						Al principi internet funcionava de manera bastant personal: una empresa/persona penjava una web al seu PC i altres i podien accedir, les pagines eren "nomes de lectura", es a dir no eren interactives.
-						TODO
+						- Al principi internet funcionava de manera bastant personal: una empresa/persona penjava una web al seu PC i altres i podien accedir
+						- les pagines eren "nomes de lectura", es a dir no eren interactives.
 					</textarea>
 				</section>
 				<section data-markdown>
@@ -159,8 +183,16 @@
 						- Centralitzacio aka *cloud*: grans servidors que monopolitzen les dades
 						Note:
 						- Inevitablement les webs estatiques i merament informatives, van passar a ser interactives, comensant amb els foros i cada vegada tornant-se mes complexes fins a comensar a parlar de web apps. Tots aqui hem viscut aquesta evolucio fins a la era FB en la que estem ara.
-						- No tot esta siguent bo en la web 2.0, especialment en els darrers anys on el model "p2p", es a dir que cadascu te les seves coses esta practicament extingit. De fet, segur que heu sentit a parlar del "cloud". El cloud no es res mes que l'ordinador d'una altre persona. EN particular, el cloud son granjes inmenses d'ordinadors normalment d'un sol propietari, destaquen: AWS, Azure i G.
+						- No tot esta siguent bo en la web 2.0, especialment en els darrers anys on el model "p2p", en el que que cadascu te les seves coses esta practicament extingit. 
+						De fet, segur que heu sentit a parlar del "cloud". 
 						- TODO
+					</textarea>
+				</section>
+				<section data-markdown data-background-image="assets/data-center.jpg" data-background-size="contain">
+					<textarea data-template>
+						## The cloud is just someone else's computer
+						Note:
+						El cloud son granjes inmenses d'ordinadors normalment d'un sol propietari, destaquen: AWS, Azure i G.
 					</textarea>
 				</section>
 				<section data-markdown>
@@ -171,16 +203,10 @@
 							- Ingesta massiva de dades
 							- Algoritmes per extreure informacio util
 						Note:
+						Un parell de coses a destacar de la web 2.0:
 						- Al 2007 arriba el primer iphone, i comensa la revolucio dels smartphones, que han provocat que incrementi brutalment el trafic d'internet, tant per la quantitat d'hores en q els usuaris passen conectats, com pel nombre d'usuaris.
 						- Adicionalment estan apareixent tecnologies que apunten a ser disruptives com IoT i ML/BD. Aquestes permeten per una banda agregar de manera molt massiva dades, i per altre banda extreuren info util.
-						- Per exemple, amb IoT podriem saber el fluxe de vianants a una ciutat, i amb big data canviar l'horari del transport public per tal de tenir un servei mes eficient. De la mateixa manera es podria tallar de manera automatica l'acces a internet quan es detectes el risc de que es produeixi una manifestacio.
-					</textarea>
-				</section>
-				<section data-markdown data-background-image="assets/data-center.jpg" data-background-size="contain">
-					<textarea data-template>
-						## The cloud is just someone else's computer
-						Note:
-						TODO
+						- Per exemple, amb IoT podriem saber el fluxe de vianants a una ciutat, i amb big data calcular el millor horari del transport public per tal de tenir un servei mes eficient.
 					</textarea>
 				</section>
 				<section data-markdown>
@@ -189,7 +215,14 @@
 						- Mes centralitzacio: internet sap "el que vols" 
 						- La irrupcio de la blockchain (bitcoin): empoderament, descentralitzacio i criptografia
 						Note:
-						TODO
+						Sesta comensant ja a sentir a parlar de la web 3.0, pero encara esta per veure com sera aquesta. Ara mateix hi ha dos tendencies:
+						- La centralitzacio massiva de dades permet fer que internet sigui "inteligent", i de manera proactiva se'ns analitzi i sens proporcioni contingut personalitzat.
+						- Quants de vosaltres sabeu que es blockchain/bitcoin? ==D Un altre dia
+						- La blockchain ha obert el cami per a una nova manera de fer les coses:
+							- Les dades nomes les poden modificar els seus propietaris
+							- Les dades estan distribuides als PCs de totom qui vulgui participar
+							- Els participants de la xarxa reben incentius
+							- Concepte: "trustless", desconfies dels altres i dissenyes un sistema que asumeix que la penya trolejara
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/privacy.jpg" data-background-size="contain">
@@ -197,20 +230,31 @@
 						## Privacitat
 						#### https://myaccount.google.com/
 						Note:
-						TODO
+						- He estat parlant de les "dades", pero que son aquestes dades?
+						- Entenc que si esteu aqui sou conscients de que hi empreses i governs que tenen access amoltes dades personals nostres
+						- Pq us feu una idea us convido a que aneu a "my account punt google punt com", alla podreu veure part del que G sap de vosaltres, 
+						- i de passada podeu desabilitar desde aquesta mateixa pagina part del rastreig que us fan
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/cambridge-trump.jpeg" data-background-size="contain">
 					<textarea data-template>
 						Note:
-						TODO
+						- Crec que avui en dia totom es conscient d'aquest espionatge per part de grans corporacions i govs, pero la majoria de gent pensa:
+						- Jo no he fet res dolent i no tinc res a amagar. Pero:
+						1. Aquestes dades les poden fer servir per manipularte
+						2. El que s'enten per bo o dolent pot canviar segons el govern de torn o si viatges a un altre pais (per exemple homosexuals)
+						3. Es posible que les teves dades a titol individual nomes les fagin servir per colarte anuncis, pero aquestes tenen un valor molt alt cuan s'agrupen, i ja no son les teves dades, sino les dades de tota una poblacio.
+						- Qui sap de que va l'escandol de CA
+						- Basicament van fer servir big data per detectar ciutadans indecisos, els i van fer perfils psicologics i els i van colar publicitat personalitzada i falsa per influir el seu vot.
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="assets/vendetta.jpeg" data-background-size="contain">
 					<textarea data-template>
 						# Que podem fer al respecte?
 						Note:
-						TODO
+						La questio es... que podem fer al respecte?
+						Hi ha moltes coses que es poden fer per millorar la salut d'internet, i protegirnos.
+						Algunes son facils d'altres impliquen coneixements tecnics i moltes hores.
 					</textarea>
 				</section>
 				<section data-markdown>
@@ -219,26 +263,52 @@
 						- VPN
 						- TOR
 						Note:
-						TODO
+						El mode incognito dels navegadors no serveis per navegar de manera privada. Serveix per no deixar rastre al dispositiu.
+						Per navegar de manera anonima el millor es fer servir TOR o una VPN.
+						- La VPN o virtual private network, consisteix en conectarse a un servidor amb una connexio encriptada. Aquest servidor rep les peticions dels usuaris i les envia a internet. D'aquesta manera ningu, tret del servidor sap que miren els usuaris.
+						- Per altre banda TOR, fa servir una xarxa de nodes, quan un dels nodes fa una peticio, aquesta es va passant d'un node a l'altre de manera random, fins que arriba al desti, idespres desfa el recorregut. Basicament cada node sap de qui rep la peticio i a qui es el seguent al qui li enviara, d'aquesta manera cap node sap qui es el remitent/destinatari final.
+						Lu bo de tor sq es gratis. el problema es que es lent. La VPN en canvi s'ha depagar.
+						Per altre banda la VPN va molt be quan es vol accedir a contingut que esta restringit a un pais.
+						Fer servir TOR ajuda a protegir els seus usuaris mes necesitats com periodistes o activistes, ja que com mes gran es la xarxa, mes complicat es trobarlos.
+						Per altre banda fer servir TOR per mirar videos, o descargar coses congestiona i puteja.
+						Fer servir TOR es super facil, nomes us heu de descargar un navegador que ho soporti. Per exemple Brave l'incorpora en l¡el modo incognito
 					</textarea>
 				</section>
 				<section data-markdown>
 					<textarea data-template>
-						## Configurar be les nostres apps
-						- Navegadors
-						- Smartphones
+						## Configurar els nostres equips i apps
+						- Sistemes Operatius lliures: Linux
+						- Smartphones: permisos de les apps i ***sentit comu***
 						Note:
-						TODO
+						Fer servir TOR i VPN ens protegeixen de ser observats per ISPs i altresparticipants de la xarxa, pero no de les pagines que visitem o de les apps que fem servir.
+						- Per exemple, Windows, iOS, Android i macOS poden capturar molta informacio que fem servir. En canvi si fem servir Linux, aixo no passa.
+						- Pel que fa als mobils la cosa encara es mes delicada, ja que aquests els portem sempre a sobre, i tenen sensors interessants com ara GPS, camera, microfon, ...
+						- Es important donar els permisos justos a les apps, moltes apps gratuites capturen les nostres dades epr vendreles. Per exemple, per que collons hauria de tenir l'angry birds acces al meu GPS?
 					</textarea>
 				</section>
-				<section data-background-iframe="https://www.youtube-nocookie.com/embed/w3jLJU7DT5E"></section>
+				<section data-background-iframe="https://www.youtube-nocookie.com/embed/w3jLJU7DT5E">
+					<textarea data-template>
+						Note:
+						- Qui te una minima idea de q es l'open source o software lliure?
+						- El software lliure es imprescindible pq es l'unic que ens garantitza saber que estem fent servir
+						- Al contrari del que molta gent pensa, el software lliure acostuma a ser de gran qualitat, i es fa servir mes que no pas el softwaree privat.
+						- Lo realment maco del software lliure, es com les comunitats treballen de manera cooperativa i moltes vegades de manera altruista.
+						- Aquest video explica com funciona git que es la eina mes utilitzada per crear software de manera colaborativa
+					</textarea>
+				</section>
 				<section data-markdown>
 					<textarea data-template>
 						## Empoderarse de les dades
 						- Self hosting: servidors propis
 						- P2P + crypto
 						Note:
-						TODO
+						- El problema es que per molt que ens u currem, si fem servir FB, FB tindra les nostres dades. No importa si fem servir TOR, o si no li donem access al gps.
+						- Igual podem ocultar part de la informacio, pero el propi us de certs serveis, porta implicit donar aquestes dades. La unica solucio aqui, es no fer servir certs serveis.
+						Lo ideal seria trobar solucions alternatives, aquestes solucions moltes vegades passen per:
+						- hospeda nosaltres mateixos certs serveis en servidors que siguin nostres
+						- O fer servir tecnologia P2P, per compartir la informacio entre iguals: exemple torrent.
+
+						Actualment existeixen alternatives justes i lliures a casi qualsevol servei d'internet, desde twitter fins a paypal.
 					</textarea>
 				</section>
 				<section data-markdown data-background-image="https://media.giphy.com/media/3oFzmqN1xHwaEXGl7q/giphy.gif" data-background-size="contain">
@@ -250,7 +320,9 @@
 						Propostes:
 						- Llistat de apps i serveis que fem servir
 						- Workshops i tutos per assolir alternatives
-						- Sessions tematiques: Blockchain
+						- Sessions tematiques: 
+							- Com funcionen els PC (SOs, llenguatges de programacio, ...)
+							- Blockchain
 						- Classes de programacio
 						- Projectes
 
