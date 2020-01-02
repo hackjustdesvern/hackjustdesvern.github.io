@@ -1,0 +1,83 @@
+<!doctype html>
+<style>
+    html { 
+        background: url(https://media.giphy.com/media/4H3Ii5eLChYul9p7NL/giphy.gif) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+
+    .navbar {
+        border: 0;
+        z-index: 9999;
+        letter-spacing: 4px;
+        background-color: red;
+    }
+    .navbar .nav > li > a {
+        line-height: 50px;
+    }
+
+    .navbar-header h1 {
+        letter-spacing: 1px;
+        color: black !important;
+        font-family: 'Lobster Two', cursive;
+    }
+
+    .navbar li a, .navbar {
+        color: black !important;
+        font-size: 12px;
+        transition: all 0.6s 0s;
+    }
+
+    .navbar-toggle {
+        background-color: transparent !important;
+        border: 0;
+    }
+
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: red !important;
+    }
+</style>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Oishii - Fine Japanese Cuisine</title>
+    <meta name="description" content="Oishii - Fine Japanese Cuisine ">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <h1 class="brand brand-name navbar-left">
+                    <div class "navbar-left">Hack Just Desvern</h1>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#intro">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Menu</a></li>
+                        <li><a href="#contact">Reserve</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+</html>
